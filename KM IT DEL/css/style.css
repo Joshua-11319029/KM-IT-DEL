@@ -1,0 +1,39 @@
+body {
+    overflow-x: hidden;
+    background-image: url('../image/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a#navbarDropdown {
+    margin-right: 110px;
+}
+
+a.sidebar-link:hover {
+    background-color: grey;
+    font-weight: bold;
+}
+
+div.tempat-dashboard {
+    /* background-color: rgba(128, 128, 128, 0.425); */
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+div.container {
+    height: 88vh;
+}
+
+div.sidebar {
+    min-height: 90.5vh;
+}
